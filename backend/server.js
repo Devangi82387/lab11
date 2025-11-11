@@ -15,5 +15,7 @@ app.get("/metrics", async (req, res) => {
 
 
 app.listen(4000, () => console.log("Backend listening on port 4000"));
+
 // minor test change to trigger CI/CD
 console.log("CI/CD test run successful");
+
