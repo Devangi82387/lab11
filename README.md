@@ -12,6 +12,7 @@ It includes an automated GitHub Actions workflow for building, testing, and depl
 ---
 
 ## Project Structure
+
 ├─ backend/
 │ ├─ package.json
 │ ├─ server.js
