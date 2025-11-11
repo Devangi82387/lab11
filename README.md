@@ -12,21 +12,25 @@ It includes an automated GitHub Actions workflow for building, testing, and depl
 ---
 
 ## Project Structure
+```
 
+mini-cicd-monitoring/
 ├─ backend/
-│ ├─ package.json
-│ ├─ server.js
-│ ├─ Dockerfile
-│ └─ test/
-│ └─ test-basic.js
+│  ├─ package.json
+│  ├─ server.js
+│  ├─ Dockerfile
+│  └─ test/
+│     └─ test-basic.js
 ├─ .github/
-│ └─ workflows/
-│ └─ ci-cd.yml
+│  └─ workflows/
+│     └─ ci-cd.yml
 ├─ docker-compose.yml
 ├─ docker-compose.monitoring.yml
 ├─ prometheus/
-│ └─ prometheus.yml
+│  └─ prometheus.yml
 └─ README.md
+
+```
 
 ## Steps Performed
 
@@ -76,5 +80,6 @@ Prometheus: http://localhost:9090
 Grafana: http://localhost:3000
 
 Conclusion
+
 
 This mini project successfully integrates CI/CD automation and real-time monitoring, demonstrating a complete DevOps workflow — from code push to deployment and visualization.
